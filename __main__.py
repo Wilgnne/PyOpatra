@@ -4,7 +4,7 @@ import CLI
 
 cpu = CPU ()
 
-cpu.memory.setFromFile("C:\Cleo Simulator\examples\XOR.CLE")
+cpu.memory.setFromFile("file")
 
 cpu.isRunning = True
 while (cpu.isRunning):
